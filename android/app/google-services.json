@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "89668072198",
+    "project_id": "taxizone2",
+    "storage_bucket": "taxizone2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89668072198:android:980edee0e3886fe5afa487",
+        "android_client_info": {
+          "package_name": "com.aadevelopers.taxizone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89668072198-rnfsr67g5slkj2akoi8lvvusl72kf6er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6hMbpumCc5jcXUiKSsJhK5n-dK5AO1xU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89668072198-rnfsr67g5slkj2akoi8lvvusl72kf6er.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

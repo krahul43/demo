@@ -1,0 +1,116 @@
+ // activesTitleContainer:{
+  //   flexDirection:'row',
+  //   alignItems:'center',
+  //   marginVertical:15
+  // },
+  // halfLine:{
+  //   height:1,
+  //   backgroundColor:'gray',
+  //   flex:1
+  // },
+  // activesTitle: {
+  //   fontStyle:'italic',
+  //   //flex:2,
+  //   fontSize:18,
+  // },
+  // activeRow:{
+  //   paddingTop:10
+  // },
+  // activeContainer:{
+  //   borderWidth:1,
+  //   borderRadius:4,
+  //   flexDirection:'row',
+  //   paddingTop:12,
+  //   paddingBottom:10,
+  //   paddingHorizontal:10,
+  //   alignItems:'center'
+  // },
+  // activeLabelContainer:{
+  //   position:'absolute',
+  //   backgroundColor:'#fff',
+  //   top:-17,
+  //   left:10,
+  //   padding:5,
+  //   zIndex:50,
+  // },  
+  // activeLabelText:{
+  //   fontStyle:'italic',
+  //   fontWeight:'bold',
+  //   fontSize:16
+  // },
+  // activeDetails:{
+
+  // },
+  // activeAcions:{
+    
+  // },
+  // notesText:{
+  //   color:'black',
+  //   fontStyle:'italic',
+  //   fontSize:15
+  // },
+  // clientText:{
+  //   color:'black',
+  //   fontStyle:'italic',
+  //   fontSize:15
+  // },
+  // dateText:{
+  //   color:'gray',
+  //   fontStyle:'italic',
+  //   fontSize:13
+  // }
+});
+
+
+{/* <View style={styles.activesTitleContainer}>
+<View style={[styles.halfLine, {marginRight:5}]} />
+<Text style={styles.activesTitle}>Reservas activas</Text>
+<View style={[styles.halfLine, {marginLeft:5}]} />
+</View>
+
+<FlatList 
+data={reservations}
+keyExtractor={(item) => item.id}
+ItemSeparatorComponent={() => <View style={{height:10}}/>}
+renderItem={({item}) => 
+  <View style={styles.activeRow}>
+    <View style={[styles.activeContainer,{borderColor: primary}]}>
+      <View style={styles.activeLabelContainer}>
+        <Text style={styles.activeLabelText}>{item.code}</Text>
+      </View> 
+      <View style={styles.activeDetails}>
+        <Text style={styles.notesText}>{item.notes}</Text>
+        <Text style={styles.clientText}>{item.client_name}</Text>
+        <Text style={styles.dateText}>{item.date}</Text>
+      </View>
+      <View style={styles.activeActions}>
+        <FlatButton 
+          containerStyle={{
+            backgroundColor:'gray'
+          }}
+          text={"Cancelar"}
+        />
+      </View>
+    </View> 
+  </View>
+}
+/> */}
+
+data=[
+  {
+    id:1,
+    code:"ARN88E",
+    notes:"Apartamento 204",
+    client_name:"Daniel valencia",
+    date:"01/02/2021 03:40 p.m",
+    state:"active"
+  },
+  {
+    id:2,
+    code:"ARN88E",
+    notes:"Apartamento 204",
+    client_name:"Daniel valencia",
+    date:"01/02/2021 03:40 p.m",
+    state:"active"
+  }
+]
